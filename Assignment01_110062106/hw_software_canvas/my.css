@@ -1,0 +1,152 @@
+  #canvas {
+    margin-top: 10px;
+    border: #5e08e0 5px solid;
+    border-radius: 15px;
+    background-color: rgb(237, 243, 240);
+    width: 1000px;
+    height: 600px;
+    /* justify-content: center; */
+}
+#canvas2 {
+    border: #13012e 5px solid;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    /* justify-content: center; */
+}
+
+body {
+    /* background-position: center;
+    background-size: cover; */
+    display: flex;
+    background-color: aqua;
+    background-image: url("nnn/fill.png");
+    background-repeat: repeat;
+
+    
+}
+#type {
+    width: 99px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: #350561 4px solid;
+    border-radius: 50%;
+    background-color: rgb(243, 82, 208);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+.btn:hover{
+    transform: scale(1.05);
+    /* transform:translate(50px,50px) rotate(90deg); */
+    /* animation: swing 1s 1; */
+}
+
+#big{
+    border: #ce5707 5px solid;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin: 10px;
+    background-color: rgb(255, 0, 0);
+    /* background-image: url("nnn/pencil.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%; */
+    /* background-image: url("nnn/pencil.png"); */
+}
+
+#pencil {
+    background-image: url("nnn/pencil.png");
+}
+
+#eraser {
+    background-image: url("nnn/eraser.png");
+}
+
+#text {
+    background-image: url("nnn/text.png");
+}
+#circle {
+    background-image: url("nnn/circle.png");
+}
+#triangle {
+    background-image: url("nnn/triangle.png");
+}
+#rectangle {
+    background-image: url("nnn/rectangle.png");
+}
+#last {
+    background-image: url("nnn/last.png");
+}
+#next {
+    background-image: url("nnn/next.png");
+}
+#refresh {
+    background-image: url("nnn/refresh.png");
+}
+#download {
+    background-image: url("nnn/download.png");
+}
+#upload {
+    background-image: url("nnn/upload.png");
+}
+#line {
+    background-image: url("nnn/line.png");
+}
+#fill {
+    background-image: url("nnn/fill.png");
+}
+#rainbow {
+    background-image: url("nnn/rainbow.png");
+}
+#arc {
+    background-image: url("nnn/arc.png");
+}
+#func {
+    margin-top: 10px;
+    margin-left: 70px;
+   margin: 10px;
+   height: 300px;
+   /* border: #9e1111 4px solid; */
+   border-radius: 15px;
+   /* background-color: aliceblue; */
+   display: block;
+}
+
+#sec1 {
+    margin-left: 70px;
+    height: 80px;
+    margin: 10px;
+    /* border: #e48a02 4px solid; */
+    border-radius: 15px;
+    display: block;
+    flex-direction: row;
+  }
+#sec2 {
+    margin-left: 70px;
+    height: 80px;
+    margin: 10px;
+    /* border: #e48a02 4px solid; */
+    border-radius: 15px;
+    display: block;
+    flex-direction: row;
+  }
+
+  #sec3 {
+    margin-left: 70px;
+    margin: 10px;
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .color-picker 
+  { 
+    width: 300px; 
+    height: 300px; 
+    display: block; 
+  }

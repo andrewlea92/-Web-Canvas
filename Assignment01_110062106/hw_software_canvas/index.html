@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="my.css">
+</head>
+
+<body>
+   <canvas id="canvas"></canvas>
+    <div id="big">
+   <div id="func">
+    <button class="btn" id="pencil" onclick="time_for(id)"></button>
+    <button class="btn" id="eraser" onclick="time_for(id)"></button>
+    <button class="btn" id="text" onclick="time_for(id)"></button> 
+    <button class="btn" id="circle" onclick="time_for(id)"></button>
+    <button class="btn" id="triangle" onclick="time_for(id)"></button>
+    <button class="btn" id="rectangle" onclick="time_for(id)"></button> 
+    <button class="btn" id="last" onclick="time_for(id)"></button>
+    <button class="btn" id="next" onclick="time_for(id)"></button>
+    <button class="btn" id="refresh" onclick="time_for(id)"></button> 
+    <button class="btn" id="download" onclick="time_for(id)"></button>
+    <button class="btn" id="upload" onclick="time_for(id)"></button>
+    <button class="btn" id="line" onclick="time_for(id)"></button> 
+    <button class="btn" id="fill" onclick="time_for(id)"></button> 
+    <button class="btn" id="rainbow" onclick="time_for(id)"></button>
+    <button class="btn" id="arc" onclick="time_for(id)"></button>
+    
+    
+   </div>
+   <div id="sec1">
+    <label for "type"> 字體: </label>
+    <select class="selection" id="type">ggg<br>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Impact">Impact</option>
+        <option value="Papyrus">Papyrus</option>
+        <option value="PMingLiU">新細明體</option>
+        <option value="Microsoft JhengHei">微軟正黑體</option>
+        <option value="DFKai-SB">標楷體</option>
+    </select>
+   </div>
+   <div id="sec2">
+    <label for "big2"> 字的大小: </label>
+    <select class="selection" id="big2">fff<br>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+        <option value="70">70</option>
+    </select>
+   </div>
+   <div id="sec3">
+    <!-- <input type="range" min="1" max="60" value="1" id="brush"> -->
+    <label for "rangee"> 粗度: </label>
+    <input type="range" value="7" min="0" max="50" id="rangee" oninput="rangevalue.value=value"/>
+    <output id="rangevalue">7</output>
+</div>
+        <!-- <canvas id="canvas2"></canvas> -->
+        <div class="color-picker" id="color2">
+        </div>
+        <!-- <input type="color" class="selection" id="color" value="#000000"> -->
+        <!-- <input type="file" id="uploader"> -->
+    </div>
+    
+    
+</body>
+<script src="my.js"></script>
+</html>
